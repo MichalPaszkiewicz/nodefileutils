@@ -11,7 +11,7 @@ if(size <= 0){
     console.log("arg 4 must be an integer greater than 1.");
 }
 
-var objects = JSON.parse(fs.readFileSync("test.json","utf-8"));
+var objects = JSON.parse(fs.readFileSync(file,"utf-8"));
 
 console.log("splitting file to files with " + size + " objects per file.");
 
